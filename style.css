@@ -1,13 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .cabeçalho{
     background-color:rgb(5, 20, 240);
-color: rgb(0, 0, 0);
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 24px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
 } 
-  
- 
-
-    
-
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.cabeçalho-imagem{
+    width: 10%;
+}
+.escola-imagem{
+    width: 15%;
+ }
+ .escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color: white;
+    display: flex;
+    justify-content: center;
+ }
